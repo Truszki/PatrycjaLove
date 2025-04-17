@@ -1,0 +1,30 @@
+*{padding: 0; margin: 0;}
+.container{height: 100vh;
+           width: 100vw;
+           color: #444;
+           background: #ffe7e3;
+           text-align: center;
+}
+.love,.kotek,.piesek,.konik {
+    padding-top: 25%;
+}
+h2{font-size: 72px;margin-bottom: 30px;}
+.love,.kotek,.piesek,.konik span {color: #ff8787;}
+.love a {
+    text-decoration: none;
+    background: #ffeded;
+    padding: 5px;
+    margin: 5px 5px;
+    border: 3px solid #fff7f7;
+    border-radius: 10px;
+}
+
+#kotka {
+    color: #ff8787;
+}
+#pieska {
+    color: #ff8784;
+}
+#konika {
+    color: #ff8787;
+}
