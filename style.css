@@ -1,15 +1,16 @@
 *{padding: 0; margin: 0;}
-.container{height: 100vh;
-           width: 100vw;
-           color: #444;
-           background: #ffe7e3;
-           text-align: center;
+.container, .container2 {
+    height: 100vh;
+    width: 100vw;
+    color: #444;
+    background: #ffe7e3;
+    text-align: center;
 }
-.love,.kotek,.piesek,.konik, .patrycja {
+.love,.kotek,.piesek,.konik {
     padding-top: 25%;
 }
 h2{font-size: 72px;margin-bottom: 30px;}
-.love,.kotek,.piesek,.konik span {color: #ff8787;}
+.love,.kotek,.piesek,.konik,.patrycja {color: #ff8787;}
 .love a {
     text-decoration: none;
     background: #ffeded;
@@ -58,7 +59,8 @@ h2{font-size: 72px;margin-bottom: 30px;}
 }
 
 .photo img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
