@@ -5,7 +5,7 @@
            background: #ffe7e3;
            text-align: center;
 }
-.love,.kotek,.piesek,.konik {
+.love,.kotek,.piesek,.konik, .patrycja {
     padding-top: 25%;
 }
 h2{font-size: 72px;margin-bottom: 30px;}
@@ -26,6 +26,9 @@ h2{font-size: 72px;margin-bottom: 30px;}
     color: #ff8784;
 }
 #konika {
+    color: #ff8787;
+}
+#patrycja {
     color: #ff8787;
 }
 .wrapper h1 {
